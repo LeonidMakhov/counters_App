@@ -38,7 +38,7 @@ function App() {
 
     return (
         <div>
-            <el> COUNTERS </el>
+            <el> COUNTERS! </el>
             {counters.map(el => (
                 <div key={el.id}>
                     <button onClick={() => clickMinus(el.id)}> Minus</button>
